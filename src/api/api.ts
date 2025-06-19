@@ -1,4 +1,7 @@
 import { wait } from './wait';
+import { Todo } from '../types/Todo';
+import { User } from '../types/User';
+
 export const getTodos = async (): Promise<Todo[]> => {
   await wait(1000); // штучне очікування
 
